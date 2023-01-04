@@ -13,6 +13,9 @@ import { rootRouterConfig } from './app.routes';
 import { CarComponent } from './car/car.component';
 import { CarService } from './service/car.service';
 
+import { registerLocaleData } from '@angular/common';
+import localePt from '@angular/common/locales/pt';
+registerLocaleData(localePt);
 @NgModule({
   declarations: [
     AppComponent,
